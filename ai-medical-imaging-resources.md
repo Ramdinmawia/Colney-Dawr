@@ -43,15 +43,67 @@ Collected from GitHub repository search on 2026-10-01. Star counts are approxima
 | [MedMNIST/MedMNIST](https://github.com/MedMNIST/MedMNIST) | 18 standardized 2D/3D biomedical classification datasets (`pip install medmnist`) | ~1.4k |
 | [facebookresearch/fastMRI](https://github.com/facebookresearch/fastMRI) | Raw MRI measurements and clinical images for reconstruction (archived) | ~1.5k |
 
+## MONAI ecosystem
+
+| Repo | What it covers | Stars |
+|---|---|---|
+| [Project-MONAI/MONAI](https://github.com/Project-MONAI/MONAI) | AI toolkit for healthcare imaging (PyTorch) | ~8.7k |
+| [Project-MONAI/tutorials](https://github.com/Project-MONAI/tutorials) | MONAI tutorial notebooks | ~2.6k |
+| [Project-MONAI/research-contributions](https://github.com/Project-MONAI/research-contributions) | Recent research prototypes built on MONAI | ~1.2k |
+| [Project-MONAI/MONAILabel](https://github.com/Project-MONAI/MONAILabel) | Intelligent image labeling and active learning (3D Slicer extension) | ~890 |
+| [Project-MONAI/GenerativeModels](https://github.com/Project-MONAI/GenerativeModels) | Generative models for medical imaging (archived) | ~760 |
+| [Project-MONAI/model-zoo](https://github.com/Project-MONAI/model-zoo) | Pretrained models in MONAI Bundle format | ~340 |
+| [Project-MONAI/VISTA](https://github.com/Project-MONAI/VISTA) | Versatile imaging segmentation and annotation | ~300 |
+| [Project-MONAI/monai-deploy](https://github.com/Project-MONAI/monai-deploy) | Packaging and deploying medical AI apps in clinical production | ~120 |
+
+## Foundation and pretrained models
+
+| Repo | What it covers | Stars |
+|---|---|---|
+| [bowang-lab/MedSAM](https://github.com/bowang-lab/MedSAM) | Segment Anything in medical images | ~4.4k |
+| [bowang-lab/MedSAM2](https://github.com/bowang-lab/MedSAM2) | Segment Anything in 3D medical images and videos | ~725 |
+| [Joey-S-Liu/MedSAM3](https://github.com/Joey-S-Liu/MedSAM3) | Segment Anything with medical concepts | ~330 |
+| [bowang-lab/MedSAMSlicer](https://github.com/bowang-lab/MedSAMSlicer) | 3D Slicer plugin for MedSAM | ~300 |
+| [wasserth/TotalSegmentator](https://github.com/wasserth/TotalSegmentator) | Segmentation of 100+ anatomical structures in CT and MR | ~3k |
+| [lassoan/SlicerTotalSegmentator](https://github.com/lassoan/SlicerTotalSegmentator) | TotalSegmentator inside 3D Slicer | ~280 |
+| [MrGiovanni/SuPreM](https://github.com/MrGiovanni/SuPreM) | Supervised pretrained 3D models on 9,262 CT volumes (ICLR 2024) | ~430 |
+| [MrGiovanni/ModelsGenesis](https://github.com/MrGiovanni/ModelsGenesis) | Self-supervised pretraining for 3D CT/MRI | ~790 |
+
+## Data handling and preprocessing
+
+| Repo | What it covers | Stars |
+|---|---|---|
+| [TorchIO-project/torchio](https://github.com/TorchIO-project/torchio) | Medical image processing and augmentation for PyTorch | ~2.4k |
+| [suyashkumar/dicom](https://github.com/suyashkumar/dicom) | High-performance DICOM parser in Go | ~1.1k |
+| [RichardObi/medigan](https://github.com/RichardObi/medigan) | Pretrained generative models for synthetic medical images | ~210 |
+
+## Task-specific: chest X-ray, CT, breast, pathology, radiology reports
+
+| Repo | What it covers | Stars |
+|---|---|---|
+| [mlmed/torchxrayvision](https://github.com/mlmed/torchxrayvision) | Chest X-ray datasets and models | ~1.2k |
+| [JoHof/lungmask](https://github.com/JoHof/lungmask) | Automated lung segmentation in CT | ~800 |
+| [nyukat/breast_cancer_classifier](https://github.com/nyukat/breast_cancer_classifier) | Breast cancer screening classifier | ~890 |
+| [jeya-maria-jose/Medical-Transformer](https://github.com/jeya-maria-jose/Medical-Transformer) | Gated axial-attention segmentation (MICCAI 2021) | ~860 |
+| [TissueImageAnalytics/tiatoolbox](https://github.com/TissueImageAnalytics/tiatoolbox) | Computational pathology toolbox | ~550 |
+| [ttanida/rgrg](https://github.com/ttanida/rgrg) | Region-guided radiology report generation (CVPR) | ~216 |
+| [stanfordmlgroup/CheXbert](https://github.com/stanfordmlgroup/CheXbert) | Radiology report labeling with BERT | ~160 |
+| [omar-mohamed/GPT2-Chest-X-Ray-Report-Generation](https://github.com/omar-mohamed/GPT2-Chest-X-Ray-Report-Generation) | Chest X-ray report generation with GPT-2 | ~90 |
+| [jrzech/reproduce-chexnet](https://github.com/jrzech/reproduce-chexnet) | CheXNet reproduction | ~200 |
+| [imedslab/OAProgression](https://github.com/imedslab/OAProgression) | Knee osteoarthritis progression from radiographs | ~88 |
+| [mr7495/COVID-CTset](https://github.com/mr7495/COVID-CTset) | Large COVID-19 CT dataset | ~89 |
+
 ## Useful GitHub topics to browse
 
 - [`medical-imaging`](https://github.com/topics/medical-imaging)
 - [`medical-image-segmentation`](https://github.com/topics/medical-image-segmentation)
 - [`medical-image-analysis`](https://github.com/topics/medical-image-analysis)
 - [`mri-reconstruction`](https://github.com/topics/mri-reconstruction)
+- [`radiology`](https://github.com/topics/radiology)
 
 ## Notes
 
 - Archived repos (fastMRI, NiftyNet) are read-only; check for maintained successors before building on them.
 - Licenses and dataset usage terms were not checked. Verify before reuse, especially for clinical or commercial work.
-- Search covered topic tags only; well-known projects without those tags (e.g. MONAI, nnU-Net) may be missing and are worth adding.
+- Search covered topic tags and names only. nnU-Net (MIC-DKFZ) did not appear in the results and is not listed; add it manually if wanted.
+- The radiology and general medical-image-analysis searches returned several small or archived repos; only the more relevant ones are included.
