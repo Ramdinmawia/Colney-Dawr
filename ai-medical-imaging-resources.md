@@ -93,6 +93,19 @@ Collected from GitHub repository search on 2026-10-01. Star counts are approxima
 | [imedslab/OAProgression](https://github.com/imedslab/OAProgression) | Knee osteoarthritis progression from radiographs | ~88 |
 | [mr7495/COVID-CTset](https://github.com/mr7495/COVID-CTset) | Large COVID-19 CT dataset | ~89 |
 
+## nnU-Net and MIC-DKFZ (DKFZ Heidelberg)
+
+| Repo | What it covers | Stars |
+|---|---|---|
+| [MIC-DKFZ/nnUNet](https://github.com/MIC-DKFZ/nnUNet) | Self-configuring segmentation framework, a common baseline | ~8.9k |
+| [MIC-DKFZ/batchgenerators](https://github.com/MIC-DKFZ/batchgenerators) | 2D/3D data augmentation framework | ~1.2k |
+| [MIC-DKFZ/nnDetection](https://github.com/MIC-DKFZ/nnDetection) | Self-configuring 3D medical object detection | ~660 |
+| [MIC-DKFZ/nnInteractive](https://github.com/MIC-DKFZ/nnInteractive) | 3D interactive segmentation with point, scribble, box and lasso prompts | ~500 |
+| [MIC-DKFZ/HD-BET](https://github.com/MIC-DKFZ/HD-BET) | MRI brain extraction | ~430 |
+| [MIC-DKFZ/VoxTell](https://github.com/MIC-DKFZ/VoxTell) | Free-text promptable 3D segmentation | ~270 |
+| [KitwareMedical/SlicerNNUnet](https://github.com/KitwareMedical/SlicerNNUnet) | nnU-Net integration for 3D Slicer | ~72 |
+| [IML-DKFZ/nnunet-workshop](https://github.com/IML-DKFZ/nnunet-workshop) | nnU-Net workshop notebooks | ~55 |
+
 ## Useful GitHub topics to browse
 
 - [`medical-imaging`](https://github.com/topics/medical-imaging)
@@ -105,5 +118,5 @@ Collected from GitHub repository search on 2026-10-01. Star counts are approxima
 
 - Archived repos (fastMRI, NiftyNet) are read-only; check for maintained successors before building on them.
 - Licenses and dataset usage terms were not checked. Verify before reuse, especially for clinical or commercial work.
-- Search covered topic tags and names only. nnU-Net (MIC-DKFZ) did not appear in the results and is not listed; add it manually if wanted.
+- Search covered topic tags and names only. nnU-Net was missing from the first searches and was added from a direct name search.
 - The radiology and general medical-image-analysis searches returned several small or archived repos; only the more relevant ones are included.
